@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>Calculate Me!</title>
+    <style type="text/css" media="all">
+  @import url('https://fonts.googleapis.com/css2?family=Ubuntu&family=VT323&display=swap');
+      .container{
+        font-family: Ubuntu;
+        display: grid;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        background-color: #110026;
+        border-radius: 20px;
+        width: 200px;
+        padding: 20px 0px;
+        position: relative;
+        left: 20vw;
+        top: 5vh;
+      }
+      .grid{
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+      }
+      
+      
+      .button{
+        height: 40px;
+        width: 40px;
+        margin: 2px ; 
+       
+        background-color: #004b96;
+        border: 2px solid #004b96;
+        color: white;
+        font-size: 20px;
+       
+      }
+    input{
+      height: 50px;
+      width: 180px;
+      margin-bottom: 10px;
+      border: 2px solid black;
+      font-family:Ubuntu;
+      font-size:40px;
+      background-color: rgba(217,217,217,0.342);
+    color: white;
+      
+    }
+    button.equal{
+      background-color: #05c094;
+      border: 2px solid #05c094;
+    }
+    button.ac{
+      background-color: red;
+      border: 2px solid red;
+    }
+    .clear{
+      background: #f6820b;
+      border: 2px solid #f6820b;
+    }
+    h1{
+      text-align: center;
+      font-family: Ubuntu;
+      font-size: 2em;
+   color: #707071;
+    }
+    span{
+      color: #f1525a;
+    font-size: 1.25em;
+      
+    }
+    </style>
+  </head>
+  <body>
+    <h1>Calculate Me<span> ! </span></h1>
+    <div class="container">
+      <input class="input" type="text" />
+      <div class="grid">
+        <button class="button ac">AC</button>
+        <button class="button clear">C</button>
+        <button class="button">%</button>
+        <button class="button">/</button>
+        <button class="button">7</button>
+        <button class="button">8</button>
+        <button class="button">9</button>
+        <button class="button">+</button>
+        <button class="button">4</button>
+        <button class="button">5</button>
+        <button class="button">6</button>
+        <button class="button">-</button>
+        <button class="button">1</button>
+        <button class="button">2</button>
+        <button class="button">3</button>
+        <button class="button">*</button>
+        <button class="button">0</button>
+        <button class="button">00</button>
+        <button class="button">.</button>
+        <button class="button equal">=</button>
+      </div>
+    </div>
+    <script src="cal_main.js" type="text/javascript" charset="utf-8"></script>
+  </body>
+</html>
